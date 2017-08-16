@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* { 
+	margin: 0; 
+	padding: 0; 
+    box-sizing: border-box;
+}
+
+body { 
+    
+  	/*font-size: 62.5%; */
+	font-family: Georgia, serif;
+	background-image: url(../IMG/nomophobie.jpg); 
+	background-position: top center;
+	background-repeat: no-repeat;
+   
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+
+span#colormsg{
+    color: azure;
+}
+
+h6 {
+	font-size: 1.4em;
+	margin-bottom: 15px;
+}
+
+a { color: white; }
+
+label, li {
+	display: block;
+	padding: 5px;
+	font-size: 1.4em;
+	color: #e3f1fa;
+}
+
+fieldset {
+    
+	margin: 115px auto;
+	width: 400px;
+	padding: 8px 15px 15px 15px;
+	border: 1px solid white;
+	display: block; /* IE 7 Requires This */
+	}
+	legend {
+		padding: 4px 6px 4px 6px;
+		border: 1px solid white;
+		font-size: 2.0em;
+		color: #e3f1fa;
+		font-style: italic;
+	}
+	
+ul { list-style: none; margin-bottom: 15px;}
+
+.results-bar {
+	padding: 10px;
+	color: white;
+	background: url(images/result-bar-bg.png) left center;
+	white-space: nowrap;
+}
+
+span.total-votes {
+	font-size: 2.6em;
+}
+
+
+.main {
+  margin-top: 452px;
+  margin-left: 190px;
+  background-color: #8080ff;
+  width: 62.4%;
+  min-height:200px;
+  
+}
+.showing {
+  display: block
+    
+}
+.hidden {
+  display: none;
+}
+.q-one-box,
+.q-two-box, 
+.q-three-box, 
+.q-four-box,
+.q-five-box,
+.q-six-box,
+.q-seven-box,
+.q-eight-box,
+.q-nine-box,
+.q-ten-box,
+.q-eleven-box,
+.q-twelve-box,
+.q-thirteen-box,
+.q-fourteen-box,
+.q-fifteen-box,
+.q-sixteen-box,
+.q-seventeen-box,
+.q-eigthteen-box,
+.q-nineteen-box,
+.q-twenty-box,
+.endbox{
+  padding: 10px 0 15px 20px;
+  font-size: 32px;
+   
+    
+}
+
+
+.answer-btn {
+  width: 100px;
+  display: inline-block;
+  background-color: rebeccapurple;
+    color: white;
+}
+
+
+
+ 
